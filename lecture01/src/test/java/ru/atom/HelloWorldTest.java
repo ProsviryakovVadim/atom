@@ -12,5 +12,6 @@ public class HelloWorldTest {
     public void getHelloWorld() throws Exception {
         assertThat(HelloWorld.getHelloWorld(), is(equalTo("Hello, World!")));
         assertThat(HelloWorld.getHelloWorld(), is(not(equalTo("Some strange string"))));
+        assertThat(HelloWorld.getReady(), is(equalTo("Get ready!")));
     }
 }

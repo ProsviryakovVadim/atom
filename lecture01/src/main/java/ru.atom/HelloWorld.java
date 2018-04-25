@@ -9,4 +9,8 @@ public class HelloWorld {
     public static String getHelloWorld() {
         return "Hello, World!";
     }
+
+    public static String getReady() {
+        return "Get ready!";
+    }
 }
